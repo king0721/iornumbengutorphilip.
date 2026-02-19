@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngutor Philip | Trov Global LTD</title>
+    <style>
+        :root { --green: #2e7d32; --gold: #f9a825; --dark: #1b5e20; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 40px; color: #333; }
+        header { border-bottom: 5px solid var(--green); margin-bottom: 40px; padding-bottom: 20px; }
+        .highlight { color: var(--green); font-weight: bold; }
+        .card { border: 1px solid #ddd; padding: 20px; border-radius: 10px; background: #f9f9f9; margin: 20px 0; }
+        .badge { background: var(--green); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; }
+        h1 { color: var(--dark); margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ngutor Philip Iornumbe</h1>
+        <p><strong>Co-founder & COO, Trov Global LTD</strong> | Senior Innovation Systems Architect</p>
+    </header>
+
+    <section>
+        <h2>The Innovation: BSF AIR</h2>
+        <p class="highlight">Turning Environmental Liability into High-Value Bio-Resources.</p>
+        <p>Currently, organic waste is an environmental liability. We solve this by using Black Soldier Fly larvae to convert waste into high-protein feed and organic fertilizer via <strong>BSF AIR (Adaptive Insect Recycling)</strong>.</p>
+    </section>
+
+    <div class="card">
+        <h3>Technical Specifications & USP</h3>
+        <ul>
+            <li><strong>Infrastructure:</strong> Fully Modular & 100% Solar-Powered.</li>
+            <li><strong>Design:</strong> IoT-Enabled & Off-Grid (Deployable anywhere from remote farms to urban markets).</li>
+            <li><strong>Impact:</strong> Net-Zero footprint / Decentralized Green Infrastructure.</li>
+        </ul>
+        <span class="badge">Validated at TRL 4</span> <span class="badge">Ready for 2026 Pilot</span>
+    </div>
+
+    <section>
+        <h2>Vision 2040</h2>
+        <p>We aren't just building a farm; we are building the first decentralized green infrastructure for a circular global bioeconomy. Our engineering traceability and financial models are primed for scale.</p>
+    </section>
+
+    <footer style="margin-top:50px; border-top: 1px solid #ccc; padding-top: 20px;">
+        <p>Contact: Trov Global LTD | Built for Innovation Project 2026</p>
+    </footer>
+</body>
+</html>
