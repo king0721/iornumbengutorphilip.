@@ -5,6 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ngutor Philip | Trov Global LTD</title>
     <style>
+        :root { --green: #2e7d32; --gold: #f9a825; --white: #ffffff; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; max-width: 850px; margin: auto; padding: 40px; color: #333; background: #fdfdfd; }
+        header { border-bottom: 6px solid var(--green); margin-bottom: 30px; padding-bottom: 10px; }
+        .hero { background: var(--green); color: white; padding: 30px; border-radius: 12px; margin-bottom: 30px; }
+        .tag { background: var(--gold); color: #000; padding: 5px 12px; border-radius: 15px; font-weight: bold; font-size: 0.85em; }
+        .card { border: 1px solid #ddd; padding: 20px; border-radius: 10px; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1, h2 { color: #1b5e20; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ngutor Philip Iornumbe</h1>
+        <p><strong>Co-founder & COO, Trov Global LTD</strong> | Senior Innovation Systems Architect</p>
+    </header>
+
+    <section class="hero">
+        <h2>BSF AIR: The Future of Circular Bioeconomy</h2>
+        <p>Introducing the world's first fully modular, 100% solar-powered, and net-zero insect bioreactor infrastructure.</p>
+        <span class="tag">TRL 4 Validated</span> <span class="tag">Net-Zero Waste-to-Value</span>
+    </section>
+
+    <section>
+        <h2>The Innovation</h2>
+        <p>Organic waste is an environmental liability; we turn it into high-protein feed and organic fertilizer using Black Soldier Fly larvae. Our <strong>off-grid, IoT-enabled design</strong> allows deployment anywhere—from remote farms to urban markets—maintaining a net-negative carbon footprint.</p>
+    </section>
+
+    <div class="card">
+        <h3>2026 Pilot Readiness</h3>
+        <ul>
+            <li><strong>Engineering Traceability:</strong> Fully documented IoT codebase and system architecture.</li>
+            <li><strong>Infrastructure:</strong> Modular, decentralized green systems for global scaling.</li>
+            <li><strong>Vision 2040:</strong> Building the infrastructure for a circular global bioeconomy.</li>
+        </ul>
+    </div>
+
+    <footer style="margin-top:50px; font-size: 0.8em; color: #666; text-align: center;">
+        <p>© 2026 Trov Global LTD | Senior Innovation Systems Portfolio</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngutor Philip | Trov Global LTD</title>
+    <style>
         :root { --green: #2e7d32; --gold: #f9a825; --dark: #1b5e20; }
         body { font-family: 'Inter', sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 40px; color: #333; }
         header { border-bottom: 5px solid var(--green); margin-bottom: 40px; padding-bottom: 20px; }
