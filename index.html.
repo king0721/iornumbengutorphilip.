@@ -3,48 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ngutor Philip | Systems Architect</title>
+    <title>Ngutor Philip | Innovation Systems Architect</title>
     <style>
         :root { --green: #1b5e20; --accent: #f9a825; --light: #f4f7f4; }
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: auto; padding: 20px; background: #fff; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: auto; padding: 20px; background: #fff; }
         header { display: flex; align-items: center; justify-content: space-between; border-bottom: 4px solid var(--green); padding: 20px 0; }
         .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 50px 0; align-items: center; }
         .hero-text h1 { font-size: 2.5em; color: var(--green); margin: 0; }
-        .hero-img img { width: 100%; border-radius: 20px; box-shadow: 20px 20px 0 var(--green); }
-        .badge { background: var(--green); color: white; padding: 5px 15px; border-radius: 50px; font-weight: bold; font-size: 0.9em; }
+        .hero-img img { width: 100%; border-radius: 20px; box-shadow: 15px 15px 0 var(--green); border: 1px solid #ddd; }
+        .badge { background: var(--green); color: white; padding: 5px 15px; border-radius: 50px; font-weight: bold; font-size: 0.9em; display: inline-block; margin-bottom: 10px; }
         .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 40px; }
         .card { background: var(--light); padding: 30px; border-radius: 15px; border-top: 5px solid var(--accent); }
+        h2 { color: var(--green); }
     </style>
 </head>
 <body>
     <header>
         <div>
             <h1>Ngutor Philip Iornumbe</h1>
-            <p><strong>Senior Innovation Systems Architect</strong></p>
+            <p><strong>Senior Innovation Systems Architect & Co-founder, Trov Global LTD</strong></p>
         </div>
-        <img src="logo.png" alt="Trov Global" style="height: 50px;">
+        <img src="Trov%20OG.jpg" alt="Trov Global LTD - Circular economy logo" style="height: 60px;">
     </header>
 
     <section class="hero">
         <div class="hero-text">
-            <span class="badge">TRL 4 Validated</span>
+            <span class="badge">TRL 4 VALIDATED</span>
             <h2>BSF AIR: Decentralized Green Infrastructure</h2>
-            <p>I architect modular, 100% solar-powered bioreactors that turn organic waste into high-value resources. Our IoT-enabled systems provide the verified data necessary for transparent international climate accounting.</p>
+            <p>I architect modular, 100% solar-powered bioreactors that turn organic waste into high-value bio-resources. Our IoT-enabled systems provide the verified data necessary for transparent international climate accounting.</p>
         </div>
         <div class="hero-img">
-            <img src="profile.jpg" alt="Ngutor Philip">
+            <img src="profile.jpg" alt="Ngutor Philip Iornumbe - Co-founder of Trov Global LTD">
         </div>
     </section>
 
-    <div class="card-grid">
-        <div class="card">
-            <h3>The Technology</h3>
-            <p>Off-grid, net-zero waste-to-value conversion using ML-driven yield simulation models.</p>
+    
+
+    <section id="tech-gallery">
+        <h2>Technical Stack & Digital Backbone</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Flask-Based Dashboard</h3>
+                <p>Real-time monitoring interface for bioreactor telemetry, including temperature, humidity, and bioconversion efficiency.</p>
+            </div>
+            <div class="card">
+                <h3>ML Yield Simulation</h3>
+                <p>Advanced machine learning models used to optimize waste-to-protein conversion ratios and predict harvest cycles.</p>
+            </div>
+            <div class="card">
+                <h3>Solar Bio-Infrastructure</h3>
+                <p>Custom-engineered 100% solar-powered energy systems designed for off-grid operations in remote West African regions.</p>
+            </div>
         </div>
-        <div class="card">
-            <h3>2026 Roadmap</h3>
-            <p>Advancing from Lab Validated (TRL 4) to Field Pilots (TRL 5) across West Africa.</p>
-        </div>
-    </div>
+    </section>
+
+    <footer style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; font-size: 0.9em;">
+        <p>© 2026 Trov Global LTD | Transforming Waste into Value</p>
+    </footer>
 </body>
 </html>
